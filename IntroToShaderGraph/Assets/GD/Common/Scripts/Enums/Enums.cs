@@ -1,67 +1,23 @@
-﻿namespace GD.Enums
+﻿namespace GD.Types
 {
     /// <summary>
-    /// Demos using a custom enum
+    /// A five-level priority system used to determine the importance of a task, event, or object.
     /// </summary>
-    /// <see cref="GD.Selection.GameObjectRayProvider"/>
-    public enum ToggleType : sbyte
+    public enum PriorityLevel : sbyte
     {
-        On, Off
-    }
+        [Description("This is the lowest priority.")]
+        Lowest = 1,
 
-    /// <summary>
-    /// Used in a ScriptableObject to indicate the type of the item about which the SO is storing information
-    /// </summary>
-    /// <see cref="Objects.BaseObjectData"/>
-    public enum ItemType : sbyte
-    {
-        Building, Equipment, Food, Medicine, NPC, Player, Story, Weapon
-    }
+        [Description("This is a low priority.")]
+        Low = 2,
 
-    /// <summary>
-    /// Defines the core attributes that an object can modify in a player.
-    /// For example, a health pickup will modify speed, strength, or stamina.
-    /// </summary>
-    /// <see cref="Objects.ConsumableObjectData"/>
-    public enum AttributeType : sbyte
-    {
-        Agility, Intelligence, Knowledge, Mana, Sight, Speed, Strength, Stamina
-    }
+        [Description("This is a medium priority.")]
+        Medium = 3,
 
-    /// <summary>
-    /// Defines the attack type of a NPC
-    /// </summary>
-    /// <see cref="GD.Objects.PlaceableObjectData"/>
-    public enum AttackType : sbyte
-    {
-        Melee, Ranged
-    }
+        [Description("This is a high priority.")]
+        High = 4,
 
-    /// <summary>
-    /// Defines the type of unit that an NPC will attack
-    /// </summary>
-    /// <see cref="GD.Objects.PlaceableObjectData"/>
-    public enum AttackTargetType : sbyte
-    {
-        Any, Building, None, Unit, Vehicle
-    }
-
-    /// <summary>
-    /// Used to indicate priority (e.g. completion of objectives)
-    /// </summary>
-    /// <see cref="GD.ScriptableTypes.RuntimeGameObjectiveList"/>
-    public enum PriorityType : sbyte
-    {
-        //assigning explicit values here allows us to sort whatever entity (e.g. GameObjective) use this type
-        Low = 0, Normal = 1, High = 2, Critical = 3
-    }
-
-    /// <summary>
-    /// Used to specify if an onscreen object (e.g. a waypoint) is always shown
-    /// </summary>
-    /// <see cref="GD.ScriptableTypes.RuntimeGameObjectiveList"/>
-    public enum VisibilityStrategyType : sbyte
-    {
-        ShowAlways, ShowWithin, ShowNever
+        [Description("This is the highest priority.")]
+        Highest = 5
     }
 }

@@ -96,6 +96,8 @@ Material:
     m_Colors:
     - _Emissive: {r: 2, g: 2, b: 2, a: 1}
     - _Emissive_Color: {r: 5.301023, g: 3.5258577, b: 2.0920699, a: 0}
+    - _Emissive_Remap_Max: {r: 2, g: -3, b: 0, a: 0}
+    - _Emissive_Remap_Min: {r: -1, g: -0.5, b: 0, a: 0}
     - _Specular_Color: {r: 0.10188681, g: 0.08074049, b: 0.08074049, a: 1}
     - _Sun_Direction: {r: 2, g: 0, b: 0, a: 0}
     - _Vertex_Position: {r: 0, g: 0, b: 0, a: 0}

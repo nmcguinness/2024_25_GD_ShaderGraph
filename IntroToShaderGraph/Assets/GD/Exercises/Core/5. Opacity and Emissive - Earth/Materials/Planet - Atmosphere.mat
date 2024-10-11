@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Planet - Atmosphere
-  m_Shader: {fileID: -6465566751694194690, guid: a1a5ca6339f18274dbc0c159d6050b4d,
+  m_Shader: {fileID: -6465566751694194690, guid: b3965d3572defe847b015767300210cc,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,22 +37,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Base_Map:
-        m_Texture: {fileID: 2800000, guid: 29ef0792cc946744c9001036e57b35f2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Emissive_Map:
-        m_Texture: {fileID: 2800000, guid: 4b96e75b81a4f924280d8bc0fd0d2bb6, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_75dc86dd80b64475a53cc508d27464f6_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: f613fa544dc666743ab489e128a8874e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_78b68bc1bc424bb0820b90edb2b594eb_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: ecb81185bd9d83341ba93f1f1bfead49, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_ba68b946298e41d1a6ebc6c5f340e7df_Texture_1:
         m_Texture: {fileID: 2800000, guid: 6f73d939f689261439f4a34ba2bc5ad0, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -77,16 +61,12 @@ Material:
     m_Floats:
     - _Brightness_Multiplier: 20
     - _Fresnel_Power: 5.19
-    - _Normal_Strength: 1
     - _Opacity_Multiplier: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Rotation_Multiplier: 0.01
     - _Rotation_Speed_Multiplier: 0.01
-    - _Smoothness_Multiplier: 1
     m_Colors:
-    - _Atmosphere_Emissive_Color: {r: 31.999996, g: 31.999996, b: 31.999996, a: 0}
+    - _Atmosphere_Emissive_Color: {r: 21.03882, g: 20.641861, b: 20.641861, a: 1}
     - _Atomsphere_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Emissive_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Sun_Direction: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

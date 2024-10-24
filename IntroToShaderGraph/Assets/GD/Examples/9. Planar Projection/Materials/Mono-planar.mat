@@ -67,7 +67,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_71AF774E: 0.635
+    - Vector1_71AF774E: 0.942
     - Vector1_B9A152A1: 1
     - _Divider: -0.77
     - _QueueControl: 0

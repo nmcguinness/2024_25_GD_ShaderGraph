@@ -51,11 +51,16 @@ Material:
     m_Ints: []
     m_Floats:
     - _Clip_Threshold: 0.0032
+    - _Height: 8
     - _Metallic: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0.618
-    m_Colors: []
+    - _Tile: 4
+    - _Width: 8
+    m_Colors:
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8057663741869214092
 MonoBehaviour:

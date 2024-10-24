@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor.PackageManager;
 using UnityEngine;
 
 //starter script to update the liquid drop shader
@@ -13,11 +12,15 @@ public class LiquidDropBehaviour : MonoBehaviour
 
     private int rowCount = 8;
     private int columnCount = 8;
+
     private int rowID;
     private int columnID;
 
     private int row = 0;
     private int column = 0;
+
+    // [SerializeField]
+    //private string rowStrID = "_Current_Row";
 
     private void Start()
     {
@@ -30,8 +33,6 @@ public class LiquidDropBehaviour : MonoBehaviour
 
     private IEnumerator WaitThenDoSomething()
     {
-        //Debug.Log("Sleeping at..." + Time.time);                          //debug to show time before wait
-
         for (row = 0; row < rowCount; row++)
         {
             for (column = 0; column < columnCount; column++)
@@ -40,8 +41,6 @@ public class LiquidDropBehaviour : MonoBehaviour
 
                 material.SetFloat(rowID, row);
                 material.SetFloat(columnID, column);
-
-                //   Debug.Log("[" + rowIndex + "," + columnIndex + "]");
             }
         }
 
@@ -49,11 +48,7 @@ public class LiquidDropBehaviour : MonoBehaviour
         {
             row = 0;
             column = 0;
-            //    Debug.Log("[" + rowIndex + "," + columnIndex + "]");
         }
-
-        //Debug.Log("Waking at..." + Time.time);                            //debug to show time after wait
-        //perform some action e.g. update shader variables
 
         StartCoroutine(WaitThenDoSomething());                              //re-start the drop coroutine to repeat
     }

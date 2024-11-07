@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1024106511286481041
+--- !u!114 &-5389096523494452006
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23,11 +23,11 @@ Material:
   m_Name: Parallax Occlusion Mapping - Bricks
   m_Shader: {fileID: -6465566751694194690, guid: 93439707566c39342914d47c8356c47a,
     type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: 4839d73a7ec63d44e90a706572a38efb, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -49,27 +49,13 @@ Material:
         m_Texture: {fileID: 2800000, guid: 090cbc0d94312a54eba299e83ad4ddbf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: 1.66
-    - _Normal_Strength: 0.25
+    - _Brightness: 0.57
+    - _Normal_Strength: 0.38
     - _POM_Amplitude: 2.8
-    - _POM_Steps: 4
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Smoothness: 0.25
+    - _POM_Steps: 129
+    - _Smoothness: 0.284
     m_Colors:
-    - _Tiling: {r: 8, g: 2, b: 0, a: 0}
+    - _Tiling: {r: 12, g: 4, b: 0, a: 0}
   m_BuildTextureStacks: []

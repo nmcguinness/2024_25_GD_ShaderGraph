@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2361455056741561355
+--- !u!114 &-8590129382937781327
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23,11 +23,11 @@ Material:
   m_Name: Parallax Mapping - Bricks
   m_Shader: {fileID: -6465566751694194690, guid: 84e06887deec7cf48b1a24c653816e27,
     type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: ce9baf59da0c4aa4ba4710bab31325cc, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -45,35 +45,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8c2290f0aee00974bae10a35c4bfd65d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 090cbc0d94312a54eba299e83ad4ddbf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Normal_Map:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 090cbc0d94312a54eba299e83ad4ddbf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_4d6abc3118b04a769888406434cea394: 0.25
-    - Vector1_603a3c68c14e41d3b8325cfa95fdb74a: 4
-    - Vector1_e4edd61764e3499aaf7527c15e890ea8: 0.25
-    - Vector1_f4ad270e560f4bc49a521eaa28e021dd: 2
-    - _QueueControl: 0
-    - _QueueOffset: 0
+    - Vector1_4d6abc3118b04a769888406434cea394: 0.37
+    - Vector1_603a3c68c14e41d3b8325cfa95fdb74a: 5
+    - Vector1_f4ad270e560f4bc49a521eaa28e021dd: 0.71
     m_Colors:
-    - Vector2_aee7b7c9772548168efe4c73467c99a1: {r: 8, g: 2, b: 0, a: 0}
+    - Vector2_aee7b7c9772548168efe4c73467c99a1: {r: 12, g: 4, b: 0, a: 0}
     - Vector2_bf7224ee2cde4ef08f4b24fa8c4194d6: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

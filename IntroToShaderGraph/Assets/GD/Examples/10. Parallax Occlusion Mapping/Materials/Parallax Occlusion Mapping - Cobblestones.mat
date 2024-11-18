@@ -64,7 +64,7 @@ Material:
     m_Floats:
     - _Brightness: 1
     - _Normal_Strength: 1.5
-    - _POM_Amplitude: 4.68
+    - _POM_Amplitude: 10
     - _POM_Steps: 174
     - _QueueControl: 0
     - _QueueOffset: 0

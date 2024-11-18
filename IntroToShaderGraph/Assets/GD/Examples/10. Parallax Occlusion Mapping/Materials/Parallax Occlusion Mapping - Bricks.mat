@@ -53,7 +53,7 @@ Material:
     m_Floats:
     - _Brightness: 0.57
     - _Normal_Strength: 0.38
-    - _POM_Amplitude: 2.8
+    - _POM_Amplitude: 5.74
     - _POM_Steps: 129
     - _Smoothness: 0.284
     m_Colors:
